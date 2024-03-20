@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCIC</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <header>
+        <img src="cottage.png" alt="Cottage Image" class="cottage-image">
+        <nav>
+            <ul>
+                <li><a href="General.html">General</a></li>
+                <li><a href="Communication.html">Communication</a></li>
+               
+                <li><a href="Tax-Information.html">Tax Information</a></li>
+                <li><a href="CCIC.html">CCIC</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="ccic" class="section">
+        <h2>CCIC</h2>
+        <div class="column-container">
+            <div class="column">
+                <form id="ccic-form-column1">
+                    <!-- <label for="vendor_categories_entry">Vendor Categories:</label>
+                    <input type="text" id="vendor_categories_entry" name="vendor_categories_entry"> -->
+                    <label for="vendor_categories_entry">Vendor Categories:</label>
+<select id="vendor_categories_entry" name="vendor_categories_entry">
+    <option value="">Select</option>
+    <optgroup label="A">
+        <option value="artisans">Artisans</option>
+        <option value="craftspersons">Craftspersons</option>
+        <option value="weavers">Weavers</option>
+        <option value="potters">Potters</option>
+        <option value="sculptors">Sculptors</option>
+    </optgroup>
+    <optgroup label="B">
+        <option value="cooperative">Cooperative</option>
+        <option value="society">Society</option>
+        <option value="ngo">NGO</option>
+        <option value="state">State</option>
+        <option value="govt">Govt.</option>
+        <option value="psu">PSU</option>
+    </optgroup>
+    <optgroup label="C">
+        <option value="manufacturers">Manufacturers</option>
+    </optgroup>
+    <optgroup label="D">
+        <option value="traders">Traders</option>
+    </optgroup>
+    <optgroup label="E">
+        <option value="clusters">Clusters</option>
+        <option value="cluster_member">Member of Cluster Group</option>
+    </optgroup>
+    <optgroup label="F">
+        <option value="cfc-Varanasi">CFC-Varanasi</option>
+    </optgroup>
+    <optgroup label="G">
+        <option value="others">Others - Like Sundry Suppliers</option>
+    </optgroup>
+</select>
+                    <label for="vendor_credit_limit_entry">Vendor Credit Limit:</label>
+                    <input type="text" id="vendor_credit_limit_entry" name="vendor_credit_limit_entry">
+                    
+                    <!-- <label for="award_type_entry">Award Type:</label>
+                    <input type="text" id="award_type_entry" name="award_type_entry"> -->
+                    <label for="award_type_entry">Award Type:</label>
+                    <select id="award_type_entry" name="award_type_entry">
+                        <option value="select">Select</option>
+                        <option value="National Awardee">National Awardee</option>
+                        <option value="State Awardee">State Awardee</option>
+                        <option value="Shlipguru">Shlipguru</option>
+                        <option value="Sant Kabir">Sant Kabir</option>
+                    </select>
+                    
+                    <label for="awardee_entry">Awardee:</label>
+                    <input type="text" id="awardee_entry" name="awardee_entry">
+                    
+                    <label for="starting_date_ccic_entry">Approval Date of CCIC:</label>
+                    <input type="date" id="starting_date_ccic_entry" name="starting_date_ccic_entry">
+
+                    <!-- <label for="district_entry">District:</label>
+                    <input type="text" id="district_entry" name="district_entry">
+                    
+                    <label for="three_year_purchase_entry">Three Year Purchase:</label>
+                    <input type="text" id="three_year_purchase_entry" name="three_year_purchase_entry">
+                    
+                    <label for="operative_payment_entry">Operative Payment:</label>
+                    <input type="text" id="operative_payment_entry" name="operative_payment_entry">
+                    
+                    <label for="gender_entry">Gender:</label>
+                    <input type="text" id="gender_entry" name="gender_entry"> -->
+                    
+                    <label for="original_state_entry">Original State:</label>
+                    <input type="text" id="original_state_entry" name="original_state_entry">
+
+                    <label for="msme_entry">MS/ME:</label>
+                    <input type="text" id="msme_entry" name="msme_entry">
+                    
+                    <!-- <label for="msme_type_entry">MS/ME Type:</label>
+                    <input type="text" id="msme_type_entry" name="msme_type_entry"> -->
+                    <label for="msme_type_entry">MS/ME Type:</label>
+                    <select id="msme_type_entry" name="msme_type_entry">
+                        <option value="select">Select</option>
+                        <option value="DICS">DICS</option>
+                        <option value="KVIC">KVIC</option>
+                        <option value="KVIB">KVIB</option>
+                        <option value="DHC">DHC</option>
+                        <option value="DHL">DHL</option>
+                        <option value="MOMSME">MOMSME</option>
+                        <option value="UAM">UAM</option>
+                    </select>
+                    
+                    <label for="msme_registration_no_entry">MS/ME Registration No.:</label>
+                    <input type="text" id="msme_registration_no_entry" name="msme_registration_no_entry">
+                </form>
+            </div>
+            <div class="column">
+                <form id="ccic-form-column2">
+                    <label for="concessionaire_vendor_entry">Concessionaire Vendor:</label>
+                    <input type="text" id="concessionaire_vendor_entry" name="concessionaire_vendor_entry">
+                    <label for="vendor_commission_entry">Vendor Commission %:</label>
+                    <input type="text" id="vendor_commission_entry" name="vendor_commission_entry">
+                
+                    <!-- <label for="esc_payment_entry">ESC Payment:</label>
+                    <input type="text" id="esc_payment_entry" name="esc_payment_entry"> -->
+                
+                    <!-- <label for="minority_entry">Minority:</label>
+                    <input type="text" id="minority_entry" name="minority_entry"> -->
+                    <label for="minority_entry">Minority:</label>
+                    <select id="minority_entry" name="minority_entry">
+                        <option value="select">Select</option>
+                        <option value="Yes">Yes</option>
+                        <option value="No">No</option>
+                    </select>
+                
+                    <!-- <label for="minority_type_entry">Minority Type:</label>
+                    <input type="text" id="minority_type_entry" name="minority_type_entry"> -->
+                    <label for="minority_type_entry">Minority Type:</label>
+                    <select id="minority_type_entry" name="minority_type_entry">
+                        <option value="select">Select</option>
+                        <option value="Muslim">Muslim</option>
+                        <option value="Sikh">Sikh</option>
+                        <option value="Budhist">Budhist</option>
+                        <option value="Parsi">Parsi</option>
+                        <option value="Christian">Christian</option>
+                    </select>
+                
+                    <!-- <label for="caste_entry">Caste:</label>
+                    <input type="text" id="caste_entry" name="caste_entry"> -->
+                    <label for="caste_entry">Caste:</label>
+                        <select id="caste_entry" name="caste_entry">
+                            <option value="select">Select Caste</option>
+                            <option value="General">General</option>
+                            <option value="OBC">OBC</option>
+                            <option value="SC/ST">SC/ST</option>
+                        </select>
+                
+                    <!-- <label for="old_sims_code_entry">Old SIMS Code:</label>
+                    <input type="text" id="old_sims_code_entry" name="old_sims_code_entry">
+                
+                    <label for="old_subcode_entry">Old Subcode:</label>
+                    <input type="text" id="old_subcode_entry" name="old_subcode_entry"> -->
+                
+                    <label for="license_fee_entry">License Fee %:</label>
+                    <input type="text" id="license_fee_entry" name="license_fee_entry">
+                    <label for="discount_offered_by_the_vendor_entry">Discount Offered by Vendor:</label>
+                    <input type="text" id="discount_offered_by_the_vendor_entry" name="discount_offered_by_the_vendor_entry">
+            </form>
+        </div>
+    </div>
+        <button class="submit-button" type="submit">Submit</button>
+        <script src="registration.js"></script>
+</body>
+</html>

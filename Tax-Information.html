@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Information</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <header>
+        <img src="cottage.png" alt="Cottage Image" class="cottage-image">
+        <nav>
+            <ul>
+                <li><a href="General.html">General</a></li>
+                <li><a href="Communication.html">Communication</a></li>
+                
+                <li><a href="Tax-Information.html">Tax Information</a></li>
+                <li><a href="CCIC.html">CCIC</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="tax-information" class="section">
+        <h2>Tax Information</h2>
+        <div class="column-container">
+            <div class="column">
+                <form id="tax-information-form-column1">
+                    <!-- <label for="lst_no_entry">L.S.T. No.:</label>
+                    <input type="text" id="lst_no_entry" name="lst_no_entry">
+                    
+                    <label for="cst_no_entry">C.S.T. No.:</label>
+                    <input type="text" id="cst_no_entry" name="cst_no_entry">
+                    
+                    <label for="ecc_no_entry">E.C.C. No.:</label>
+                    <input type="text" id="ecc_no_entry" name="ecc_no_entry">
+                    
+                    <label for="range_entry">Range:</label>
+                    <input type="text" id="range_entry" name="range_entry"> -->
+                    
+                    <label for="collectorate_entry">Collectorate:</label>
+                    <input type="text" id="collectorate_entry" name="collectorate_entry">
+                    
+                    <label for="vendor_type_entry">Vendor Type:</label>
+                    <input type="text" id="vendor_type_entry" name="vendor_type_entry">
+                    <label for="gst_registration_no_entry">GST Registration No.:</label>
+                    <input type="text" id="gst_registration_no_entry" name="gst_registration_no_entry">
+                    
+                    <label for="gst_vendor_type_entry">GST Vendor Type:</label>
+                    <input type="text" id="gst_vendor_type_entry" name="gst_vendor_type_entry">
+                </form>
+            </div>
+            <div class="column">
+                <form id="tax-information-form-column2">
+                    <!-- <label for="tin_no_entry">T.I.N. No.:</label>
+                    <input type="text" id="tin_no_entry" name="tin_no_entry"> -->
+                    
+                    
+                    
+                    <label for="pan_no_entry">P.A.N. No.:</label>
+                    <input type="text" id="pan_no_entry" name="pan_no_entry">
+                    
+                    <label for="pan_status_entry">P.A.N. Status:</label>
+                    <input type="text" id="pan_status_entry" name="pan_status_entry">
+                    
+                    <label for="pan_reference_no_entry">P.A.N. Reference No.:</label>
+                    <input type="text" id="pan_reference_no_entry" name="pan_reference_no_entry">
+                    <div class="upload-container">
+                        <label class="upload-label" for="pan_image_upload">Upload PAN Card Image:</label>
+                        <input type="file" id="pan_image_upload" name="pan_image_upload" class="upload-input">
+                        <span class="upload-preview"></span> <!-- If you want to show a preview -->
+                        </div>
+                        
+                </form>
+            </div>
+        </div>
+        <div class="column">
+            <form id="tax-information-form-column3">
+                <!-- <label for="gta_entry">GTA:</label>
+                <input type="text" id="gta_entry" name="gta_entry">
+                
+                <label for="service_tax_registration_no_entry">Service Tax Registration:</label>
+                <input type="text" id="service_tax_registration_no_entry" name="service_tax_registration_no_entry">
+                
+                <label for="subcontractor_entry">Subcontractor:</label>
+                <input type="text" id="subcontractor_entry" name="subcontractor_entry"> -->
+                
+                <label for="vendor_location_entry">Vendor Location:</label>
+                <input type="text" id="vendor_location_entry" name="vendor_location_entry">
+                <label for="aadhar_card_no_entry">Aadhar Card No.</label>
+                    <input type="text" id="aadhar_card_no_entry" name="aadhar_card_no_entry">
+                    <div class="upload-container">
+                        <label class="upload-label" for="aadhar_card_image_upload">Upload Aadhar Card Image:</label>
+                        <input type="file" id="aadhar_card_image_upload" name="aadhar_card_image_upload" class="upload-input">
+                        <span class="upload-preview"></span> <!-- If you want to show a preview -->
+                        </div> 
+    
+                
+                <!-- <label for="commissioner_permission_entry">Commissioner's Permission:</label>
+                <input type="text" id="commissioner_permission_entry" name="commissioner_permission_entry"> -->
+            </form>
+        </div>
+        <button class="submit-button" type="submit">Submit</button>
+        <script src="registration.js"></script>
+    </div>
+</body>
+</html>

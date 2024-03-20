@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Communication</title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <header>
+        <img src="cottage.png" alt="Cottage Image" class="cottage-image">
+        <nav>
+            <ul>
+                <li><a href="General.html" >General</a></li>
+                <li><a href="Communication.html" >Communication</a></li>
+                
+                <li><a href="Tax-Information.html" >Tax Information</a></li>
+                <li><a href="CCIC.html" >CCIC</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="communication" class="section">
+        <h2>Communication</h2>
+        <div class="column-container">
+            <div class="column">
+                <form id="communication-form-column1">
+                    <label for="phone_no_entry">Phone No.:</label>
+                    <input type="text" id="phone_no_entry" name="phone_no_entry">
+                                    
+                    <label for="fax_no_entry">Fax No.:</label>
+                    <input type="text" id="fax_no_entry" name="fax_no_entry">
+                                    
+                    <label for="email_entry">Email:</label>
+                    <input type="email" id="email_entry" name="email_entry">
+                    <label for="department_dropdown">Department:</label>
+                    <select id="department_dropdown" name="department_dropdown">
+                        <option value="">Select</option>
+                        <option value="SHAWL">Shawl</option>
+                        <option value="Toys">Toys</option>
+                        <option value="Concessoinare">Concessoinare</option>
+                        <option value="Accessories">Accessories</option>
+                        <option value="Mens Wear">Mens Wear</option>
+                        <option value="Women">Women</option>
+                        <option value="Brass">Brass</option>
+                        <option value="Craft">Craft</option>
+                        <option value="Furnising">Furnising</option>
+                        <option value="Jewellery">Jewellery</option>
+                        <option value="Bed Spread">Bed Spread</option>
+                        <option value="Table Linen">Table Linen</option>
+                        <option value="Dress Fabric">Dress Fabric</option>
+                        <option value="Pottery">Pottery</option>
+                        <option value="Children's Wear">Children's Wear</option>
+                        <option value="Misc Item">Misc Item</option>
+                        <option value="Sales Promo Item">Sales Promo Item</option>
+                        <option value="Carpets">Carpets</option>
+                        <option value="Sarees">Sarees</option>
+                        <option value="Art Object">Art Object</option>
+                        <option value="Painting">Painting</option>
+                        <option value="Jute">Jute</option>
+                    </select>
+
+                </form>
+            </div>
+            <div class="column">
+                <form id="communication-form-column2">
+                    <!-- <label for="home_page_entry">Home Page:</label>
+                    <input type="url" id="home_page_entry" name="home_page_entry">
+                                    
+                    <label for="ic_partner_code_entry">IC Partner Code:</label>
+                    <input type="text" id="ic_partner_code_entry" name="ic_partner_code_entry"> -->
+                    <label for="product_name_entry">Product Name:</label>
+                    <input type="text" id="product_name_entry" name="product_name_entry">
+                
+                    <label for="material_used_entry">Material Used:</label>
+                    <input type="text" id="material_used_entry" name="material_used_entry">
+
+                    <label for="product_source_entry">Source of Product:</label>
+                    <input type="text" id="product_source_entry" name="product_source_entry">
+
+                    <div class="upload-container">
+                    <label class="upload-label" for="product_image_upload">Upload Product Image:</label>
+                    <input type="file" id="product_image_upload" name="product_image_upload" class="upload-input">
+                    <span class="upload-preview"></span> <!-- If you want to show a preview -->
+                    </div>
+
+                
+                </form>
+            </div>
+        </div>
+    
+        <button class="submit-button" type="submit">Submit</button>
+    </div>
+    <script src="registration.js"></script>
+</body>
+</html>

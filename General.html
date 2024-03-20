@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General </title>
+    <link rel="stylesheet" href="registration.css">
+</head>
+<body>
+    <header>
+        <img src="cottage.png" alt="Cottage Image" class="cottage-image">
+        <nav>
+            <ul>
+                <li><a href="General.html">General</a></li>
+                <li><a href="Communication.html">Communication</a></li>
+               
+                <li><a href="Tax-Information.html">Tax Information</a></li>
+                <li><a href="CCIC.html">CCIC</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="general" class="section">
+        <h2>General Information</h2>
+        <div class="column-container">
+            <div class="column">
+                <form id="general-form-column1">
+                    <!-- <label for="no_entry">No.:</label>
+                    <input type="text" id="no_entry" name="no_entry"> -->
+
+
+                    <!-- <label for="date">Date:</label>
+                    <input type="date" id="date" name="date"> -->
+                                                
+                    <label for="name_entry">Name:</label>
+                    <input type="text" id="name_entry" name="name_entry">
+                                                
+                    <label for="name_2_entry">Name 2:</label>
+                    <input type="text" id="name_2_entry" name="name_2_entry">
+                                                
+                    <label for="address_entry">Address:</label>
+                    <input type="text" id="address_entry" name="address_entry">
+                                                
+                    <label for="address_2_entry">Address 2:</label>
+                    <input type="text" id="address_2_entry" name="address_2_entry">
+                                                
+                    <!-- <label for="post_code_city_entry">Post Code/City:</label>
+                    <input type="text" id="post_code_city_entry" name="post_code_city_entry"> -->
+                    <label for="post_code_city_entry">Post Code/City:</label>
+                    <select id="post_code_city_entry" name="post_code_city_entry">
+                    <option value="">Select Post Code/City</option>
+                    <option value="india">Post Code/City</option>
+                    <option value="110001">Delhi - 110001</option>
+                    <option value="400001">Mumbai - 400001</option>
+                    <option value="560001">Bangalore - 560001</option>
+                    </select>
+                                                
+                    <!-- <label for="country_region_code_entry">Country/Region Code:</label>
+                    <input type="text" id="country_region_code_entry" name="country_region_code_entry"> -->
+                    <label for="country_region_code_entry">Country/Region Code:</label>
+                    <select id="country_region_code_entry" name="country_region_code_entry">
+                    <option value="">Select Country</option>
+                    <option value="india">India</option>
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                    <option value="australia">Australia</option>
+                    <option value="germany">Germany</option>
+                    <option value="france">France</option>
+                    <option value="japan">Japan</option>
+                    <option value="china">China</option>
+                    </select>
+                                                
+                    <!-- <label for="state_code_entry">State Code:</label>
+                    <input type="text" id="state_code_entry" name="state_code_entry"> -->
+                    <label for="state_code_entry">State Code:</label>
+                    <select id="state_code_entry" name="state_code_entry">
+                    <option value="">Select State</option>
+                    <option value="ap">Andhra Pradesh (AP)</option>
+                    <option value="ar">Arunachal Pradesh (AR)</option>
+                    <option value="as">Assam (AS)</option>
+                    <option value="br">Bihar (BR)</option>
+                    <option value="cg">Chhattisgarh (CG)</option>
+                    <option value="ga">Goa (GA)</option>
+                    <option value="gj">Gujarat (GJ)</option>
+                    <option value="hr">Haryana (HR)</option>
+                    <option value="hp">Himachal Pradesh (HP)</option>
+                    <option value="jk">Jammu and Kashmir (JK)</option>
+                    <option value="jh">Jharkhand (JH)</option>
+                    <option value="ka">Karnataka (KA)</option>
+                    <option value="kl">Kerala (KL)</option>
+                    <option value="mp">Madhya Pradesh (MP)</option>
+                    <option value="mh">Maharashtra (MH)</option>
+                    <option value="mn">Manipur (MN)</option>
+                    <option value="ml">Meghalaya (ML)</option>
+                    <option value="mz">Mizoram (MZ)</option>
+                    <option value="nl">Nagaland (NL)</option>
+                    <option value="or">Odisha (OR)</option>
+                    <option value="pb">Punjab (PB)</option>
+                    <option value="rj">Rajasthan (RJ)</option>
+                    <option value="sk">Sikkim (SK)</option>
+                    <option value="tn">Tamil Nadu (TN)</option>
+                    <option value="tg">Telangana (TG)</option>
+                    <option value="tr">Tripura (TR)</option>
+                    <option value="ut">Uttarakhand (UT)</option>
+                    <option value="up">Uttar Pradesh (UP)</option>
+                    <option value="wb">West Bengal (WB)</option>
+                    </select>
+                                                
+                    <label for="phone_no_entry">Phone No.:</label>
+                    <input type="text" id="phone_no_entry" name="phone_no_entry">
+                                                
+                    <label for="primary_contact_no_entry">Primary Contact No.:</label>
+                    <input type="text" id="primary_contact_no_entry" name="primary_contact_no_entry">
+                                                
+                    <label for="mobile_no_entry">Mobile No.:</label>
+                    <input type="text" id="mobile_no_entry" name="mobile_no_entry">
+                </form>
+            </div>
+            <div class="column">
+                <form id="general-form-column2">
+                    <label for="search_name_entry">Search Name:</label>
+                    <input type="text" id="search_name_entry" name="search_name_entry">
+                                
+                    <!-- <label for="security_deposit_balance_entry">Security Deposit Balance:</label>
+                    <input type="text" id="security_deposit_balance_entry" name="security_deposit_balance_entry">
+                                
+                    <label for="balance_lcy_entry">Balance (LCY):</label>
+                    <input type="text" id="balance_lcy_entry" name="balance_lcy_entry">
+                                
+                    <label for="purchaseer_code_entry">Purchaseer Code:</label>
+                    <input type="text" id="purchaseer_code_entry" name="purchaseer_code_entry">
+                                
+                    <label for="responsibility_center_entry">Responsibility Center:</label>
+                    <input type="text" id="responsibility_center_entry" name="responsibility_center_entry">
+                                
+                    <label for="blocked_entry">Blocked:</label>
+                    <input type="text" id="blocked_entry" name="blocked_entry">
+                                
+                    <label for="last_date_modified_entry">Last Date Modified:</label>
+                    <input type="date" id="last_date_modified_entry" name="last_date_modified_entry">
+                                
+                    <label for="transporter_entry">Transporter:</label>
+                    <input type="text" id="transporter_entry" name="transporter_entry">
+                                
+                    <label for="fabricator_entry">Fabricator:</label>
+                    <input type="text" id="fabricator_entry" name="fabricator_entry">
+                                
+                    <label for="duplicate_pan_no_entry">Duplicate PAN No.:</label>
+                    <input type="text" id="duplicate_pan_no_entry" name="duplicate_pan_no_entry"> -->
+                    <label for="district_entry">District:</label>
+                    <input type="text" id="district_entry" name="district_entry">
+
+                    <label for="gender_entry">Gender:</label>
+                        <select id="gender_entry" name="gender_entry">
+                            <option value="">Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+
+                    <label for="disability_dropdown">Do you have a disability?</label>
+                    <select id="disability_dropdown" name="disability_dropdown">
+                        <option value="select">Select</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                    </select>
+                        
+                    <label for="disability_type_dropdown">Type of disability:</label>
+                    <select id="disability_type_dropdown" name="disability_type_dropdown">
+                        <option value="">Select</option>
+                        <option value="physical">Physical Disability</option>
+                        <option value="visual">Visual Disability</option>
+                        <option value="hearing">Hearing Disability</option>
+                        <option value="intellectual">Intellectual Disability</option>
+                        <option value="other">Other</option>
+                    </select>
+            
+                    <label class="disabled-label" for="security_deposit_balance_entry">Security Deposit Balance:</label>
+                    <input type="text" id="security_deposit_balance_entry" name="security_deposit_balance_entry" disabled>
+                                
+                    <label for="date_of_submission">Date of Submission:</label>
+                    <input type="date" id="date_of_submission" name="date_of_submission">
+
+                    
+                    <label for="global_dimension_1_code_entry">Global Dimension 1 Code:</label>
+                    <input type="text" id="global_dimension_1_code_entry" name="global_dimension_1_code_entry">
+                
+                    <label for="global_dimension_2_code_entry">Global Dimension 2 Code:</label>
+                    <input type="text" id="global_dimension_2_code_entry" name="global_dimension_2_code_entry">
+                </form>
+            </div>
+        </div>
+        <button class="submit-button" type="submit">Submit</button>
+        <script src="registration.js"></script>
+    </div>
+
+</body>
+</html>
+
